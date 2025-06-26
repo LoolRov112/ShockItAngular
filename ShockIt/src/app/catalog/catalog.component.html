@@ -1,0 +1,8 @@
+<div class="row m-4">
+    <div class="col-3">
+        <app-catalog-sidebar (categorySelected)="setCategory($event)"></app-catalog-sidebar>
+    </div>
+    <div class="col mt-3">
+        <app-products [category]="_category"></app-products>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+<div class="container mt-5 mb-3 py-5">
+    <div class="row">
+        <div class="col-xl-12">
+            <div class="card p-3 mb-2">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-row align-items-center">
+                        <div class="icon">
+                            <img [src]="'assets/images/'+selectedProduct?.image" alt=" Product image"
+                                class="product-img" />
+                        </div>
+                        <div class="ms-2 c-details">
+                            <h6 class="mb-0">{{ selectedProduct?.name }}</h6>
+                            <span>{{ selectedProduct?.type }}</span>
+                        </div>
+                    </div>
+                    <div class="badge">
+                        <span>Price: {{ selectedProduct?.price }}₪</span>
+                    </div>
+                </div>
+                <div class="mt-5">
+                    <h3 class="heading">{{ selectedProduct?.name }} - {{ selectedProduct?.type }}</h3>
+                    <div class="mt-3">
+                        <p class="product-description">{{ selectedProduct?.description }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button class="btn" (click)="goBackHome()">Back 🔙</button>
+    </div>
+</div>

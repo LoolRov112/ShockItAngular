@@ -1,0 +1,29 @@
+<nav>
+  <ul>
+    <li class="notLogIn"><a routerLink='home' routerLinkActive="active">{{h}}</a></li>
+    <li class="notLogIn"><a routerLink='catalog' routerLinkActive="active">{{n}}</a></li>
+    <li class="notLogIn" *ngIf="isLoggedIn"><a routerLink='cart' routerLinkActive="active">{{c}}</a></li>
+    <li class="notLogIn"><a routerLink='about' routerLinkActive="active">{{a}}</a></li>
+    <li class="notLogIn" *ngIf="isAdmin && isLoggedIn"><a routerLink='manageproducts' routerLinkActive="active">Manage
+        Products</a></li>
+    <li class="nav-icon" *ngIf="isLoggedIn" [innerHTML]="logo"></li>
+
+    <li class="notLogIn" *ngIf="!isLoggedIn"><a routerLink='profile' routerLinkActive="active">{{l}}</a></li>
+    <!-- Dropdown -->
+    <div class="ms-3 p-0 btn-group dropdown position-absolute" *ngIf="isLoggedIn">
+      <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
+        data-bs-toggle="dropdown" aria-expanded="false">
+        More
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <div class="d-flex flex-row">
+          <a routerLink="profile/userDetails" routerLinkActive="active" class="dropdown-item px-1 py-2">Profile</a>
+        </div>
+
+        <a class="dropdown-item px-1 py-2" routerLink="profile" routerLinkActive="active" (click)="logout()">LogOut</a>
+      </div>
+    </div>
+
+
+  </ul>
+</nav>

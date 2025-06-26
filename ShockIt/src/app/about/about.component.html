@@ -1,0 +1,42 @@
+<div class="cardsBody">
+  <div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="card m-25 col-md-3" style="width: 18rem; height: 18rem;">
+      <img [src]="harel.img" style="height: 18rem;" class="card-img-top" alt="Harel">
+      <div class="card-body">
+        <p class="card-text">Name: {{harel.name}} <br>
+          Id: {{harel.id}} <br>
+          E-mail: {{harel.email}}</p>
+      </div>
+    </div>
+    <div class="container col-md-6 d-flex row">
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" (click)="change()">
+        <label class="form-check-label" for="flexSwitchCheckDefault" id="needToChange"><i
+            [class]="dark.sun"></i></label>
+      </div>
+      <div class="border rounded">
+        <h2> Shok-It <i class="bi bi-shop-window"></i> </h2>
+        <p id="p1">
+          About Us
+          We are an innovative platform connecting local farmers,
+          farmers’ market organizers, and consumers seeking fresh and authentic produce.
+          Our goal is to empower local farmers, make markets more accessible, and create a genuine connection between
+          communities.
+          Our system allows users to discover active markets nearby,
+          get details about the available produce, and enjoy an authentic market experience that supports local
+          agriculture.
+          Together, we create a space that blends tradition with advanced technology to bring the best of nature
+          directly to you.
+        </p>
+      </div>
+    </div>
+    <div class="card mx-25 col-md-3" style="width: 18rem; height: 18rem;">
+      <img [src]="maayan.img" style="height: 18rem;" class="card-img-top" alt="Maayan">
+      <div class="card-body">
+        <p class="card-text">Name: {{maayan.name}} <br>
+          Id: {{maayan.id}}<br>
+          E-mail: {{maayan.email}}</p>
+      </div>
+    </div>
+  </div>
+</div>

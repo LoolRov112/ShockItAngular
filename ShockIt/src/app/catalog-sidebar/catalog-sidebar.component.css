@@ -1,0 +1,36 @@
+/* רקע חדש לסיידבר */
+.bg-sidebar {
+  background-color: #cfc9bd; /* רקע בהיר שמתאים ל-#8a817c */
+  position: fixed;
+  top: 56px;
+  bottom: 0;
+  left: 0;
+}
+
+/* תמונות */
+.sidebar-img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 5px auto;
+  filter: brightness(0) invert(0.3); /* כהות ברורה על רקע בהיר */
+}
+
+/* כפתורים */
+.sidebar-button {
+  width: 100%;
+  text-align: center;
+  padding: 12px 0;
+  background-color: transparent;
+  border: none;
+  color: #3e3e3e;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-button:hover {
+  background-color: #e0dacd;
+  cursor: pointer;
+  border-radius: 10px;
+}

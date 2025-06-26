@@ -1,0 +1,46 @@
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <div class="col-xl-2 px-sm-2 px-0 bg-sidebar mt-0">
+            <div class="d-flex flex-column align-items-center pt-2 text-dark min-vh-100 ms-0">
+                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center w-100" id="menu">
+
+                    <li class="w-100">
+                        <button class="sidebar-button" (click)="onCategorySelect('all')">
+                            <img src="assets/images/icons/all.png" alt="All" class="sidebar-img">
+                            <div>All</div>
+                        </button>
+                    </li>
+
+                    <li class="w-100">
+                        <button class="sidebar-button" (click)="onCategorySelect('fruit')">
+                            <img src="assets/images/icons/waterMelon.png" alt="Fruits" class="sidebar-img">
+                            <div>Fruits</div>
+                        </button>
+                    </li>
+
+                    <li class="w-100">
+                        <button class="sidebar-button" (click)="onCategorySelect('vegetable')">
+                            <img src="assets/images/icons/carrot.png" alt="Vegetables" class="sidebar-img">
+                            <div>Vegetables</div>
+                        </button>
+                    </li>
+
+                    <li class="w-100">
+                        <button class="sidebar-button" (click)="onCategorySelect('nuts')">
+                            <img src="assets/images/icons/snack.png" alt="Snacks" class="sidebar-img">
+                            <div>Snacks</div>
+                        </button>
+                    </li>
+
+                    <li class="w-100 mb-5">
+                        <button class="sidebar-button" (click)="onCategorySelect('dairy')">
+                            <img src="assets/images/icons/cheese.png" alt="Dairy" class="sidebar-img">
+                            <div>Dairy products</div>
+                        </button>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+<div class="container py-3 mt-5">
+  <form class="d-flex" [formGroup]="addProductForm" (ngSubmit)="add()">
+    <div class="d-flex flex-column">
+      <div class="mb-3">
+        <label for="productName" class="form-label">Name</label>
+        <input type="text" class="form-control" id="productName" aria-describedby="nameHelp" name="productName"
+          formControlName="productName">
+      </div>
+      <div class="mb-3">
+        <label for="productType" class="form-label">Type</label>
+        <input type="text" class="form-control" id="productType" aria-describedby="typeHelp" name="productType"
+          formControlName="productType">
+      </div>
+      <div class="mb-3">
+        <label for="productPrice" class="form-label">Price</label>
+        <input type="number" class="form-control" id="productPrice" aria-describedby="priceHelp" name="productPrice"
+          formControlName="productPrice">
+      </div>
+      <div class="mb-3">
+        <label for="productImage" class="form-label">Image URL</label>
+        <input type="text" class="form-control" id="productImage" aria-describedby="imageHelp" name="productImage"
+          formControlName="productImage">
+      </div>
+      <div class="mb-3">
+        <label for="productDescription" class="form-label">Description</label>
+        <input type="text" class="form-control" id="productDescription" aria-describedby="descriptionHelp"
+          name="productDescription" formControlName="productDescription">
+      </div>
+      <div class="mb-3">
+        <label for="productCategory" class="form-label">Category</label>
+        <input type="text" class="form-control" id="productCategory" aria-describedby="categoryHelp"
+          name="productCategory" formControlName="productCategory">
+      </div>
+      <div class="mb-3">
+        <label for="productStock" class="form-label">Stock</label>
+        <input type="number" class="form-control" id="productStock" aria-describedby="stockHelp"
+          name="productStock" formControlName="productStock">
+      </div>
+    </div>
+
+    <div class="m-5 p-3 d-flex flex-column">
+      <button class="btn btn-success btn-lg mb-2" type="submit">Add</button>
+      <button class="btn btn-danger btn-lg" type="reset">reset</button>
+    </div>
+  </form>
+</div>

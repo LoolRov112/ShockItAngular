@@ -1,0 +1,21 @@
+<div class="container py-5 mt-5" *ngIf="orders.length > 0">
+    <div *ngFor="let order of orders" class="mb-4 card p-3 shadow-sm">
+        <h5 class="text-primary">🧾 Order on {{ order.date | date:'short' }}</h5>
+        <ul class="list-group list-group-flush">
+            <li *ngFor="let item of order.items" class="list-group-item d-flex justify-content-between">
+                <div>
+                    <strong>{{ item.productId.name }}</strong> x{{ item.quantity }}
+                </div>
+                <div>{{ item.productId.price * item.quantity }} ₪</div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div *ngIf="orders.length === 0" class="text-center text-muted py-5 mt-5">
+    <p>📭 No orders found yet.</p>
+</div>
+
+<div class="text-center mt-4">
+    <button class="btn btn-dark text-light" (click)="goBack()">Back 🔙</button>
+</div>

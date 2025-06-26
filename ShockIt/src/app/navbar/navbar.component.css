@@ -1,0 +1,70 @@
+* {
+  height: 3em;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8a817c;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #dbf9f4;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #0a3d2a;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #8a817c;
+  color: #dbf9f4;
+  padding: 10px 0;
+  z-index: 1000;
+}
+li a:active {
+  color: red;
+  background-color: #0a3d2a;
+}
+/* עיצוב עבור הדרופדאון */
+.dropdown-menu {
+  background-color: #8a817c; /* הצבע של רקע התפריט, תואם ל-navbar */
+  border: none; /* לא להראות גבול */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* הצללה עדינה */
+  padding: 0; /* אין ריווח פנימי */
+}
+
+.dropdown-item {
+  background: #8a817c;
+  text-align: center; /* טקסט ממורכז */
+  text-decoration: none; /* ביטול קו תחתון */
+}
+
+.dropdown-item:hover {
+  background-color: #0a3d2a; /* צבע רקע כשמעבירים את העכבר */
+  color: #fff; /* צבע טקסט בהבהוב */
+}
+
+.dropdown-item:focus {
+  background-color: #0a3d2a; /* כשיש פוקוס על אלמנט */
+  color: #fff;
+}
+li.nav-icon {
+  float: left;
+  width: 3em;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

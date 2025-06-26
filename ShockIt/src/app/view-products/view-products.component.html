@@ -1,0 +1,41 @@
+<div class="p-5 mt-3 mb-5">
+    <div class="d-flex col">
+        <div class="pb-2 me-3"> <button class="btn btn-primary" (click)="addProduct()">Add Product</button></div>
+        <form [formGroup]="searchForm" (ngSubmit)="search()" class="container d-flex row align-items-center">
+            <div class="col-5">
+                <label for="category" class="form-label">Search by category</label>
+                <input type="text" class="form-control mb-2" id="category" name="category" formControlName="category">
+            </div>
+            <div class="col-3">
+                <button type="submit" class="btn btn-primary">Search</button>
+            </div>
+            <table class="table table-hover table-striped table-bordered text-center align-middle">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Name</th>
+                        <th>Type</th>
+                        <th>Price</th>
+                        <th>Description</th>
+                        <th>Category</th>
+                        <th>Edit</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let p of products" class="table-success">
+                        <td>{{p.name}}</td>
+                        <td>{{p.type}}</td>
+                        <td>{{p.price}}₪</td>
+                        <td>{{p.description}}</td>
+                        <td>{{p.category}}</td>
+                        <td>
+                            <img class="img-fluid w-25" src="assets/images/icons/edit.png" (click)="goToEdit(p._id!)">
+                        </td>
+                        <td><img class="img-fluid w-25" src="assets/images/icons/trash.png" (click)="removeProduct(p)">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+</div>

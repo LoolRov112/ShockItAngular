@@ -1,0 +1,246 @@
+{
+  "users": [
+    {
+      "name": "harel",
+      "mail": "harel@gmail.com",
+      "birthDate": "2001-04-13",
+      "gender": "male",
+      "image": "/assets/images/maleLogo.avif",
+      "password": "1234",
+      "isAdmin": true,
+      "id": "147c"
+    },
+    {
+      "name": "maayan",
+      "mail": "maayan@gmail.com",
+      "birthDate": "1995-08-05",
+      "gender": "male",
+      "image": "/assets/images/maleLogo.avif",
+      "password": "1234",
+      "isAdmin": true,
+      "id": "61d2"
+    },
+    {
+      "name": "moran",
+      "mail": "moran@braude.org.il",
+      "birthDate": "1980-10-31",
+      "gender": "female",
+      "image": "/assets/images/femaleLogo.jpg",
+      "password": "1234",
+      "isAdmin": true,
+      "id": "a086"
+    },
+    {
+      "name": "kfiros",
+      "mail": "kfir@walla.co.il",
+      "birthDate": "1899-08-03",
+      "gender": "male",
+      "image": "/assets/images/maleLogo.avif",
+      "password": "1234",
+      "isAdmin": false,
+      "id": "dde9"
+    },
+    {
+      "name": "shahaf",
+      "mail": "shahafgor@gov.il",
+      "birthDate": "1997-02-31",
+      "gender": "male",
+      "image": "/assets/images/maleLogo.avif",
+      "password": "1234",
+      "isAdmin": false,
+      "id": "c5a4"
+    },
+    {
+      "id": "87c8",
+      "name": "Guy Ben Ezra",
+      "mail": "guy@gmail.com",
+      "birthDate": "2017-03-28",
+      "gender": "male",
+      "image": "/assets/images/maleLogo.avif",
+      "password": "1234",
+      "isAdmin": false
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Avocado",
+      "type": "Atinger",
+      "price": 10,
+      "image": "assets/images/Atinger.jpeg",
+      "description": "A creamy and smooth avocado, perfect for salads or guacamole.",
+      "category": "fruit"
+    },
+    {
+      "id": "2",
+      "name": "Apple",
+      "type": "Pink-Lady",
+      "price": 12,
+      "image": "assets/images/pinkLady.jpeg",
+      "description": "A sweet and tangy apple with a crisp texture.",
+      "category": "fruit"
+    },
+    {
+      "id": "3",
+      "name": "Grapes",
+      "type": "Seible",
+      "price": 20,
+      "image": "assets/images/seible.png",
+      "description": "Fresh and juicy grapes, ideal for snacking.",
+      "category": "fruit"
+    },
+    {
+      "id": "4",
+      "name": "Passion-fruit",
+      "type": "Edulis",
+      "price": 30,
+      "image": "assets/images/passifloraEdulis.jpg",
+      "description": "A tropical fruit with a tangy taste and a fragrant aroma.",
+      "category": "fruit"
+    },
+    {
+      "id": "5",
+      "name": "Chestnuts",
+      "type": "Asian",
+      "price": 22,
+      "image": "assets/images/chestnuts.jpg",
+      "description": "Sweet and earthy chestnuts, perfect for roasting.",
+      "category": "fruit"
+    },
+    {
+      "id": "6",
+      "name": "Dragon Fruit",
+      "type": "Pitaya",
+      "price": 15,
+      "image": "assets/images/dragonFruit.jpg",
+      "description": "A vibrant fruit with a mildly sweet taste and crunchy texture.",
+      "category": "fruit"
+    },
+    {
+      "id": "7",
+      "name": "Mangosteen",
+      "type": "Queen of Fruits",
+      "price": 25,
+      "image": "assets/images/QueenOfFruits.jpg",
+      "description": "A tropical fruit with a juicy, sweet flavor and white flesh.",
+      "category": "fruit"
+    },
+    {
+      "id": "8",
+      "name": "Rambutan",
+      "type": "Exotic",
+      "price": 18,
+      "image": "assets/images/rambutan.png",
+      "description": "A spiky fruit with a sweet and juicy interior, similar to lychee.",
+      "category": "fruit"
+    },
+    {
+      "id": "9",
+      "name": "Pineberry",
+      "type": "White Strawberry",
+      "price": 40,
+      "image": "assets/images/Pineberry.jpg",
+      "description": "A rare white strawberry with a pineapple-like flavor.",
+      "category": "fruit"
+    },
+    {
+      "id": "10",
+      "name": "Milk",
+      "type": "Full Cream",
+      "price": 5,
+      "image": "assets/images/milk.jpg",
+      "description": "Fresh whole milk, rich and creamy.",
+      "category": "dairy"
+    },
+    {
+      "id": "11",
+      "name": "Cheese",
+      "type": "Cheddar",
+      "price": 7,
+      "image": "assets/images/cheese.jpg",
+      "description": "A firm, sharp cheese perfect for sandwiches.",
+      "category": "dairy"
+    },
+    {
+      "id": "12",
+      "name": "Yogurt",
+      "type": "Greek",
+      "price": 4,
+      "image": "assets/images/yogurt.jpg",
+      "description": "Thick and creamy Greek yogurt, high in protein.",
+      "category": "dairy"
+    },
+    {
+      "id": "13",
+      "name": "Almonds",
+      "type": "Raw",
+      "price": 8,
+      "image": "assets/images/almonds.jpg",
+      "description": "Fresh and crunchy almonds, perfect for snacking.",
+      "category": "nuts"
+    },
+    {
+      "id": "14",
+      "name": "Cashews",
+      "type": "Salted",
+      "price": 10,
+      "image": "assets/images/cashews.jpg",
+      "description": "Salted cashews, a tasty and satisfying snack.",
+      "category": "nuts"
+    },
+    {
+      "id": "15",
+      "name": "Peanuts",
+      "type": "Roasted",
+      "price": 5,
+      "image": "assets/images/peanuts.jpg",
+      "description": "Roasted peanuts, a classic snack for any occasion.",
+      "category": "nuts"
+    },
+    {
+      "id": "16",
+      "name": "Carrot",
+      "type": "Organic",
+      "price": 3,
+      "image": "assets/images/carrot.jpg",
+      "description": "Fresh organic carrots, perfect for salads or cooking.",
+      "category": "vegetable"
+    },
+    {
+      "id": "17",
+      "name": "Tomato",
+      "type": "Roma",
+      "price": 6,
+      "image": "assets/images/tomato.jpg",
+      "description": "Sweet and juicy Roma tomatoes, ideal for salads.",
+      "category": "vegetable"
+    },
+    {
+      "id": "18",
+      "name": "Cucumber",
+      "type": "Green",
+      "price": 4,
+      "image": "assets/images/cucumber.jpg",
+      "description": "Crunchy and refreshing cucumbers, perfect for salads.",
+      "category": "vegetable"
+    },
+    {
+      "id": "19",
+      "name": "lala",
+      "type": "Fruit",
+      "price": 20,
+      "image": "bubu.jpg",
+      "description": "stam",
+      "category": "Fruit"
+    },
+    {
+      "id": "19",
+      "name": "bubu",
+      "type": "Fruit",
+      "price": 20,
+      "image": "bubu.jpg",
+      "description": "stam",
+      "category": "Fruit"
+    }
+  ]
+}

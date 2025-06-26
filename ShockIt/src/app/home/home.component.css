@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-wrapper {
+  width: 250px;
+}
+
+.card {
+  background-color: #dbf9f4;
+  color: #56445d;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+
+.card:nth-child(even) {
+  background-color: #56445d;
+  color: #dbf9f4;
+}
+
+.card:hover {
+  transform: scale(1.15);
+  z-index: 1000;
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #ff5b5b;
+}

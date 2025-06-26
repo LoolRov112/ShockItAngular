@@ -1,0 +1,23 @@
+.not-found-container {
+  text-align: center;
+  padding: 50px;
+  background-color: #8a817c;
+  color: #dbf9f4;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.error-message h1 {
+  font-size: 3em;
+  color: #dbf9f4;
+}
+
+.error-message p {
+  font-size: 1.5em;
+  margin-top: 10px;
+  color: #dbf9f4;
+}
+
