@@ -1,4 +1,4 @@
-# ⚡ Shock It
+# ⚡ Shock It !
 
 **Shock It** is a shopping website where users can:  
 - Register  
