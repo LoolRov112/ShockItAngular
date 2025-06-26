@@ -1,0 +1,12 @@
+# Node
+node_modules/
+dist/
+.env
+
+# Angular
+src/environments/environment.ts
+src/environments/environment.prod.ts
+
+# מערכת הפעלה
+.DS_Store
+Thumbs.db
