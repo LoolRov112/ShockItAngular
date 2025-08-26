@@ -12,13 +12,13 @@ export class AboutComponent {
   maayan = {
   name: "Maayan",
   email:"mayan.yehuda@gmail.com",
-  id:"315833301",
+  id:"315844301",
   img: "/assets/images/maayan.jpg"
 }
 harel = {
   name:"Harel",
-  email:"rovharel@gmail.com",
-  id:"211566567",
+  email:"rovjarel@gmail.com",
+  id:"211522317",
   img:"/assets/images/harel.png"
 }
 dark = {
